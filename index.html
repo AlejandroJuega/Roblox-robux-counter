@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roblox Robux Counter</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.cdnfonts.com/css/jungle-forever" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Roblox Robux Counter</h1>
+  </header>
+
+  <main>
+    <div class="profile">
+      <img id="avatar" src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-Fallback.png" alt="avatar">
+      <p id="username">@nombredeusuario</p>
+    </div>
+
+    <input type="text" id="userInput" placeholder="@nombredeusuario" />
+    <button id="checkBtn">Comprobar</button>
+
+    <div id="result" class="hidden">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Robux_2019_Logo.svg" class="robux-icon" alt="robux">
+      <span id="robuxCount">0</span> robux
+    </div>
+
+    <img id="confetti" class="hidden" 
+      src="https://drive.google.com/uc?export=view&id=1kfEJ9BPF_wy9TLzCHqcuqEjqZLYZSCQL"
+      alt="confetti" />
+  </main>
+</body>
+</html>
